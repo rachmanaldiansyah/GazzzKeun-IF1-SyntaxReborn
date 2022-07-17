@@ -21,7 +21,12 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 // Identitas
 // Nama  : Rachman Aldiansyah
@@ -34,24 +39,104 @@ public class MapsFragment extends Fragment {
 
         @Override
         public void onMapReady(GoogleMap googleMap) {
-            LatLng wrgCazerbu = new LatLng(-6.95392634685435, 107.83122536789533);
-            googleMap.addMarker(new MarkerOptions().position(wrgCazerbu).title("Warung Cazerbu"));
+            DatabaseReference database = FirebaseDatabase.getInstance().getReference();
+            //mengambil data pada Hutan
+            DatabaseReference hutanRef = database.child("Hutan");
+            hutanRef.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                @Override
+                public void onComplete(@NonNull Task<DataSnapshot> task) {
+                    if (task.isSuccessful()) {
+                        DataSnapshot snapshot = task.getResult();
+                        double lat = snapshot.child("Lat").getValue(Double.class);
+                        double lng = snapshot.child("Long").getValue(Double.class);
+                        Log.d("TAG", lat + ", " + lng);
+                        LatLng Hutan = new LatLng(Double.valueOf(lat), Double.valueOf(lng));
+                        googleMap.addMarker(new MarkerOptions().position(Hutan).title("Taman Hutan Raya Ir. H. Djuanda"));
+                        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(Hutan, 17));
+                    } else {
+                        Log.d("TAG", task.getException().getMessage()); //Never ignore potential errors!
+                    }
+                }
+            });
 
-            LatLng rmPakUjang = new LatLng(-6.9390712768240475, 107.83365333473928);
-            googleMap.addMarker(new MarkerOptions().position(rmPakUjang).title("Rumah Makan Pak Ujang Rt"));
+            //mengambil data pada Lembang
+            DatabaseReference lembangRef = database.child("Floating");
+            lembangRef.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                @Override
+                public void onComplete(@NonNull Task<DataSnapshot> task) {
+                    if (task.isSuccessful()) {
+                        DataSnapshot snapshot = task.getResult();
+                        double lat = snapshot.child("Lat").getValue(Double.class);
+                        double lng = snapshot.child("Long").getValue(Double.class);
+                        Log.d("TAG", lat + ", " + lng);
+                        LatLng Lembang = new LatLng(Double.valueOf(lat), Double.valueOf(lng));
+                        googleMap.addMarker(new MarkerOptions().position(Lembang).title("Floating Market Lembang"));
+//                        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(Lembang, 17));
+                    } else {
+                        Log.d("TAG", task.getException().getMessage()); //Never ignore potential errors!
+                    }
+                }
+            });
 
-            LatLng rmMuaroTalang = new LatLng(-6.95392634685435, 107.83122536789533);
-            googleMap.addMarker(new MarkerOptions().position(rmMuaroTalang).title("Rm Muaro Talang"));
+            //mengambil data pada Alun
+            DatabaseReference alun = database.child("Alun");
+            alun.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                @Override
+                public void onComplete(@NonNull Task<DataSnapshot> task) {
+                    if (task.isSuccessful()) {
+                        DataSnapshot snapshot = task.getResult();
+                        double lat = snapshot.child("Lat").getValue(Double.class);
+                        double lng = snapshot.child("Long").getValue(Double.class);
+                        Log.d("TAG", lat + ", " + lng);
+                        LatLng Alun = new LatLng(Double.valueOf(lat), Double.valueOf(lng));
+                        googleMap.addMarker(new MarkerOptions().position(Alun).title("Alun-alun Kota Bandung"));
+//                        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(Lembang, 17));
+                    } else {
+                        Log.d("TAG", task.getException().getMessage()); //Never ignore potential errors!
+                    }
+                }
+            });
 
-            LatLng rmNasiBuAyu = new LatLng(-6.9531086464656395, 107.83124033905995);
-            googleMap.addMarker(new MarkerOptions().position(rmNasiBuAyu).title("WARUNG NASI BU AYU"));
+            //mengambil data pada kawah
+            DatabaseReference kawahRef = database.child("Kawah");
+            kawahRef.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                @Override
+                public void onComplete(@NonNull Task<DataSnapshot> task) {
+                    if (task.isSuccessful()) {
+                        DataSnapshot snapshot = task.getResult();
+                        double lat = snapshot.child("Lat").getValue(Double.class);
+                        double lng = snapshot.child("Long").getValue(Double.class);
+                        Log.d("TAG", lat + ", " + lng);
+                        LatLng Kawah = new LatLng(Double.valueOf(lat), Double.valueOf(lng));
+                        googleMap.addMarker(new MarkerOptions().position(Kawah).title("Kawah Putih Ciwidey"));
+//                        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(Lembang, 17));
+                    } else {
+                        Log.d("TAG", task.getException().getMessage()); //Never ignore potential errors!
+                    }
+                }
+            });
 
-            LatLng rmDapoerTehSusi = new LatLng(-6.953084546749188, 107.82265436789528);
-            googleMap.addMarker(new MarkerOptions().position(rmDapoerTehSusi).title("Dapoer Teh Susi"));
+            //mengambil data pada Cai
+            DatabaseReference caiRef = database.child("Cai");
+            caiRef.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                @Override
+                public void onComplete(@NonNull Task<DataSnapshot> task) {
+                    if (task.isSuccessful()) {
+                        DataSnapshot snapshot = task.getResult();
+                        double lat = snapshot.child("Lat").getValue(Double.class);
+                        double lng = snapshot.child("Long").getValue(Double.class);
+                        Log.d("TAG", lat + ", " + lng);
+                        LatLng Cai = new LatLng(Double.valueOf(lat), Double.valueOf(lng));
+                        googleMap.addMarker(new MarkerOptions().position(Cai).title("Kampung Cai Ranca Upas"));
+//                        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(Lembang, 17));
+                    } else {
+                        Log.d("TAG", task.getException().getMessage()); //Never ignore potential errors!
+                    }
+                }
+            });
 
             // Obtain the SupportMapFragment and get notified when the map is ready to be used.
             client = LocationServices.getFusedLocationProviderClient(requireActivity());
-            googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(wrgCazerbu, 13.0F));
             mapFragment = (SupportMapFragment)getChildFragmentManager().findFragmentById(R.id.map);
             getCurrentLocation();
         }
