@@ -40,7 +40,7 @@ public class MapsFragment extends Fragment {
         @Override
         public void onMapReady(GoogleMap googleMap) {
             DatabaseReference database = FirebaseDatabase.getInstance().getReference();
-            //mengambil data pada Hutan
+            //mengambil data pada Hutan - Reihan
             DatabaseReference hutanRef = database.child("Hutan");
             hutanRef.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                 @Override
@@ -59,7 +59,7 @@ public class MapsFragment extends Fragment {
                 }
             });
 
-            //mengambil data pada Lembang
+            //mengambil data pada Lembang - Reihan
             DatabaseReference lembangRef = database.child("Floating");
             lembangRef.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                 @Override
@@ -78,7 +78,7 @@ public class MapsFragment extends Fragment {
                 }
             });
 
-            //mengambil data pada Alun
+            //mengambil data pada Alun - Reihan
             DatabaseReference alun = database.child("Alun");
             alun.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                 @Override
@@ -97,7 +97,7 @@ public class MapsFragment extends Fragment {
                 }
             });
 
-            //mengambil data pada kawah
+            //mengambil data pada kawah - Reihan
             DatabaseReference kawahRef = database.child("Kawah");
             kawahRef.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                 @Override
@@ -116,7 +116,7 @@ public class MapsFragment extends Fragment {
                 }
             });
 
-            //mengambil data pada Cai
+            //mengambil data pada Cai - Reihan
             DatabaseReference caiRef = database.child("Cai");
             caiRef.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                 @Override

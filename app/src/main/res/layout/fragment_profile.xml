@@ -8,6 +8,12 @@
     android:fitsSystemWindows="true"
     tools:context=".ProfileFragment">
 
+    <ViewFlipper
+        android:id="@+id/slider"
+        android:layout_below="@id/lbl_profile"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
     <TextView
         android:id="@+id/lbl_profile"
         android:layout_width="wrap_content"
@@ -26,7 +32,6 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/lbl_profile"
         android:layout_marginTop="20dp"
-        android:src="@drawable/rachman"
         android:contentDescription="@string/desc_lbl_img" />
 
     <LinearLayout
