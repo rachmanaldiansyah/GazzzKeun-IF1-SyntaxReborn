@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/blue_500"
     tools:context=".ProfileFragment">
 
     <TextView
         android:id="@+id/lbl_profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Member SyntaxReborn"
+        android:text="@string/desc_lbl_profile"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="30sp"/>
 
@@ -25,14 +25,15 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/lbl_profile"
         android:layout_marginTop="20dp"
-        android:src="@drawable/rachman"/>
+        android:src="@drawable/rachman"
+        android:contentDescription="@string/desc_lbl_img" />
 
     <LinearLayout
         android:id="@+id/data_profil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/foto_pribadi"
-        android:gravity="center"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:layout_marginStart="32dp"
         android:orientation="vertical">
@@ -42,10 +43,10 @@
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="20dp"
-            android:text="NIM : 10119038"
+            android:text="@string/desc_lbl_nim"
             android:textSize="18sp"
             android:gravity="center"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textStyle="bold"/>
 
         <TextView
@@ -53,9 +54,9 @@
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="20dp"
-            android:text="Nama : Rachman Aldiansyah"
+            android:text="@string/desc_lbl_nama"
             android:textSize="18sp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:gravity="center"
             android:textStyle="bold"/>
 
@@ -64,10 +65,10 @@
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="20dp"
-            android:text="Kelas: IF-1"
+            android:text="@string/desc_lbl_kelas"
             android:textSize="18sp"
             android:gravity="center"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textStyle="bold"/>
 
         <TextView
@@ -75,10 +76,10 @@
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="20dp"
-            android:text="Email : rachman.10119038@mahasiswa.unikom.ac.id"
+            android:text="@string/desc_lbl_email"
             android:textSize="15sp"
             android:gravity="center"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textStyle="bold"/>
     </LinearLayout>
 </RelativeLayout>
