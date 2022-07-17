@@ -1,0 +1,35 @@
+<resources>
+    <!-- string for app_name -->
+    <string name="app_name">Gazzz Keun</string>
+
+    <!-- string for activity_splash.xml -->
+    <string name="desc_splash_img">Gazzz Keun Logo</string>
+    <string name="desc_splash_title">Gazzz Keun!</string>
+    <string name="desc_splash_subtitle">Aplikasi Travel Advisor di Bandung</string>
+
+    <!-- string for viewpager_content1.xml -->
+    <string name="desc_vp_img1">Logo ViewPager Content 1</string>
+    <string name="desc_vp_title1">TEMPAT WISATA</string>
+    <string name="desc_vp_subtitle1">Tandai tempat wisata favorit kamu</string>
+    <string name="desc_vp_btn1">Gazzz Keun!</string>
+
+    <!-- string for viewpager_content2.xml -->
+    <string name="desc_vp_img2">Logo ViewPager Content 2</string>
+    <string name="desc_vp_title2">LOKASI SAAT INI</string>
+    <string name="desc_vp_subtitle2">Menggunakan fitur lacak lokasi saat ini</string>
+    <string name="desc_vp_btn2">Gazzz Keun!</string>
+
+    <!-- string for viewpager_content3.xml -->
+    <string name="desc_vp_img3">Logo ViewPager Content 3</string>
+    <string name="desc_vp_title3">GOOGLE MAP</string>
+    <string name="desc_vp_subtitle3">Menggunakan fitur API Google Maps</string>
+    <string name="desc_vp_btn3">Gazzz Keun!</string>
+
+    <!-- string for bottom_nav_menu.xml -->
+    <string name="desc_nav_maps">Maps</string>
+    <string name="desc_nav_about">About</string>
+    <string name="desc_nav_profile">Profile</string>
+
+    <!-- string for fragment -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

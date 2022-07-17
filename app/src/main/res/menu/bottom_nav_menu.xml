@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/maps" android:title="@string/desc_nav_maps" android:icon="@drawable/ic_baseline_map_24">Maps</item>
+    <item android:id="@+id/about" android:title="@string/desc_nav_about" android:icon="@drawable/ic_baseline_info_24">Tentang</item>
+    <item android:id="@+id/profile" android:title="@string/desc_nav_profile" android:icon="@drawable/ic_baseline_group_24">Profile</item>
+</menu>
