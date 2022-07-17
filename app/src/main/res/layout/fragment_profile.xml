@@ -11,6 +11,7 @@
     <ViewFlipper
         android:id="@+id/slider"
         android:layout_below="@id/lbl_profile"
+        android:layout_margin="20dp"
         android:layout_width="match_parent"
         android:layout_height="200dp"/>
 
@@ -25,20 +26,11 @@
         android:textStyle="bold"
         android:textSize="30sp"/>
 
-    <ImageView
-        android:id="@+id/foto_pribadi"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/lbl_profile"
-        android:layout_marginTop="20dp"
-        android:contentDescription="@string/desc_lbl_img" />
-
     <LinearLayout
         android:id="@+id/data_profil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/foto_pribadi"
+        android:layout_below="@id/slider"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:layout_marginStart="32dp"
@@ -49,22 +41,56 @@
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="20dp"
-            android:text="@string/desc_lbl_nim"
+            android:text="10119011"
             android:textSize="18sp"
             android:gravity="center"
             android:textColor="@color/white"
             android:textStyle="bold"/>
 
         <TextView
-            android:id="@+id/lbl_nama"
+            android:id="@+id/nim2"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="20dp"
-            android:text="@string/desc_lbl_nama"
+            android:text="10119038"
             android:textSize="18sp"
-            android:textColor="@color/white"
             android:gravity="center"
+            android:textColor="@color/white"
             android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/nim3"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="10119039"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/nim4"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="10119030"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/nim5"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="10119025"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
 
         <TextView
             android:id="@+id/lbl_kelas"
@@ -77,15 +103,6 @@
             android:textColor="@color/white"
             android:textStyle="bold"/>
 
-        <TextView
-            android:id="@+id/lbl_email"
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:text="@string/desc_lbl_email"
-            android:textSize="15sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:textStyle="bold"/>
+
     </LinearLayout>
 </RelativeLayout>

@@ -16,7 +16,13 @@ public class ProfileFragment extends Fragment {
     ViewFlipper viewFlipper;
     FragmentManager fragmentManager;
     int images[] = {
-            R.drawable.pb1, R.drawable.pb2, R.drawable.pb3
+            R.drawable.mancung,
+            R.drawable.rachman,
+            R.drawable.edit1,
+            R.drawable.edit2,
+            R.drawable.edit3
+            //Lamun erek ganti fotona asupkeun heula di @drawable copas bae ke rename taro di edit1-3
+            //contoh mancung
     };
 
 
@@ -40,5 +46,7 @@ public class ProfileFragment extends Fragment {
         viewFlipper.addView(image);
         viewFlipper.setFlipInterval(4000);
         viewFlipper.setAutoStart(true);
+
+
     }
 }
