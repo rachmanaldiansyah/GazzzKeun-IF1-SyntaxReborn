@@ -27,7 +27,7 @@
         android:layout_below="@id/vp_img2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
-        android:text="@string/desc_vp_title2"
+        android:text="Mulai Sekarang!"
         android:textColor="@color/white"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -59,13 +59,13 @@
         android:layout_below="@id/vp_subtitle2"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
-        android:text="@string/desc_vp_btn3"
+        android:text="Mulai Sekarang!"
         android:textSize="20sp"
         android:textColor="@color/white"
-        android:background="@drawable/round_button"
-        android:backgroundTint="@color/blue_200"
+        android:backgroundTint="@color/blue_shade"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
