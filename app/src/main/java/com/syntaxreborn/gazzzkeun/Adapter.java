@@ -7,10 +7,13 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
-// Identitas
-// Nama  : Rachman Aldiansyah
-// Nim   : 10119038
-// Kelas : IF-1
+//Identitas
+//1. Reihan wiyanda - 10119011
+//2. Rachman Aldiansyah - 10119038
+//3. Diva Sabila Ramadhan - 10119039
+//4. Rendy Dermawan- 10119030
+//5. Adira Fahri Gathan - 10119025
+// IF-1
 public class Adapter extends PagerAdapter {
     int[] layouts;
     LayoutInflater layoutInflater;

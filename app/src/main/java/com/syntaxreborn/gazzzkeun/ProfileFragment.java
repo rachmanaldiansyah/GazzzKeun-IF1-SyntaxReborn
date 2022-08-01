@@ -15,7 +15,13 @@ import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ViewFlipper;
-//Reihan
+//Identitas
+//1. Reihan wiyanda - 10119011
+//2. Rachman Aldiansyah - 10119038
+//3. Diva Sabila Ramadhan - 10119039
+//4. Rendy Dermawan- 10119030
+//5. Adira Fahri Gathan - 10119025
+// IF-1
 public class ProfileFragment extends Fragment {
     ViewFlipper viewFlipper;
     FragmentManager fragmentManager;
@@ -23,7 +29,8 @@ public class ProfileFragment extends Fragment {
             R.drawable.mancung,
             R.drawable.rachman,
             R.drawable.diva,
-            R.drawable.gatan,
+            R.drawable.rendyslebew,
+            R.drawable.gatan
             //Lamun erek ganti fotona asupkeun heula di @drawable copas bae ke rename taro di edit1-3
             //contoh mancung.Rubah desain warna, button, dll
     };

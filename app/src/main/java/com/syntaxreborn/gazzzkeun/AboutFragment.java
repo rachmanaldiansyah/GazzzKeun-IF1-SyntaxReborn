@@ -9,6 +9,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ViewFlipper;
 
+//Identitas
+//1. Reihan wiyanda - 10119011
+//2. Rachman Aldiansyah - 10119038
+//3. Diva Sabila Ramadhan - 10119039
+//4. Rendy Dermawan- 10119030
+//5. Adira Fahri Gathan - 10119025
+// IF-1
 public class AboutFragment extends Fragment {
     ViewFlipper viewFlipper;
 

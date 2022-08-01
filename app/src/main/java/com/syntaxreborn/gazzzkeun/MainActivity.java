@@ -15,10 +15,13 @@ import android.view.WindowManager;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
-// Identitas
-// NIM      : 10119038
-// Nama     : Rachman Aldiansyah
-// Kelas    : IF-1
+//Identitas
+//1. Reihan wiyanda - 10119011
+//2. Rachman Aldiansyah - 10119038
+//3. Diva Sabila Ramadhan - 10119039
+//4. Rendy Dermawan- 10119030
+//5. Adira Fahri Gathan - 10119025
+// IF-1
 public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;

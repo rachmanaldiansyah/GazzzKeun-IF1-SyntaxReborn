@@ -28,10 +28,13 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-// Identitas
-// Nama  : Rachman Aldiansyah
-// NIM   : 10119038
-// Kelas : IF-1
+//Identitas
+//1. Reihan wiyanda - 10119011
+//2. Rachman Aldiansyah - 10119038
+//3. Diva Sabila Ramadhan - 10119039
+//4. Rendy Dermawan- 10119030
+//5. Adira Fahri Gathan - 10119025
+// IF-1
 public class MapsFragment extends Fragment {
     private FusedLocationProviderClient client;
     private SupportMapFragment mapFragment;
@@ -181,3 +184,5 @@ public class MapsFragment extends Fragment {
         });
     }
 }
+
+//Stackoverflow the best
