@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "609307521557",
+    "firebase_url": "https://tugas-kelompok-map-if1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tugas-kelompok-map-if1",
+    "storage_bucket": "tugas-kelompok-map-if1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609307521557:android:3f90c9d0d257f8a8ae941c",
+        "android_client_info": {
+          "package_name": "com.example.WisataMapIF1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609307521557-vg1k9eb9keo9b2eevvvdeoko07315ocn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr3IS6YDZRf7SR-uelH7zsfzy94OBPiLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609307521557-vg1k9eb9keo9b2eevvvdeoko07315ocn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609307521557:android:9b8daa1adb7fb34aae941c",
+        "android_client_info": {
+          "package_name": "com.syntaxreborn.gazzzkeun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609307521557-vg1k9eb9keo9b2eevvvdeoko07315ocn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr3IS6YDZRf7SR-uelH7zsfzy94OBPiLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609307521557-vg1k9eb9keo9b2eevvvdeoko07315ocn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
