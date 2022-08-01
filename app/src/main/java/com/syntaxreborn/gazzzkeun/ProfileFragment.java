@@ -1,11 +1,11 @@
 package com.syntaxreborn.gazzzkeun;
 
+import android.app.FragmentManager;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
 
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -22,9 +22,8 @@ public class ProfileFragment extends Fragment {
     int images[] = {
             R.drawable.mancung,
             R.drawable.rachman,
-            R.drawable.edit1,
-            R.drawable.edit2,
-            R.drawable.edit3
+            R.drawable.diva,
+            R.drawable.gatan,
             //Lamun erek ganti fotona asupkeun heula di @drawable copas bae ke rename taro di edit1-3
             //contoh mancung
     };

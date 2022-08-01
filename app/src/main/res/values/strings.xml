@@ -4,7 +4,7 @@
 
     <!-- string for activity_splash.xml -->
     <string name="desc_splash_img">Gazzz Keun Logo</string>
-    <string name="desc_splash_title">Gazzz Keun!</string>
+    <string name="desc_splash_title">Bandung Tourism</string>
     <string name="desc_splash_subtitle">Aplikasi Travel Advisor di Bandung</string>
 
     <!-- string for viewpager_content1.xml -->

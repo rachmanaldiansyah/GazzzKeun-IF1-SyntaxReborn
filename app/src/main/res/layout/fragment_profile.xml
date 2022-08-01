@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue_500"
+    android:background="@color/blue_2"
     android:fitsSystemWindows="true"
     tools:context=".ProfileFragment">
 
@@ -33,7 +33,7 @@
         android:layout_height="50dp"
         android:layout_below="@id/slider"
         android:layout_centerHorizontal="true"
-        android:backgroundTint="@color/blue_shade"
+        android:backgroundTint="@color/blue_3"
         android:onClick="mancung"
         android:text="Reihan Wiyanda - 10119011"
         android:textColor="@color/white"
@@ -43,10 +43,9 @@
         android:id="@+id/btn_10119038"
         android:layout_width="300dp"
         android:layout_height="50dp"
-
         android:layout_below="@id/btn_10119011"
         android:layout_centerHorizontal="true"
-        android:backgroundTint="@color/blue_shade"
+        android:backgroundTint="@color/blue_3"
         android:text="Rachman Aldiansyah - 10119038"
         android:textColor="@color/white"
         android:textSize="13dp" />
@@ -57,7 +56,7 @@
         android:layout_height="50dp"
         android:layout_below="@id/btn_10119030"
         android:layout_centerHorizontal="true"
-        android:backgroundTint="@color/blue_shade"
+        android:backgroundTint="@color/blue_3"
         android:text="Diva Sabila Ramadhan - 10119039"
         android:textColor="@color/white"
         android:textSize="13dp" />
@@ -69,7 +68,7 @@
         android:textSize="13dp"
         android:layout_below="@id/btn_10119038"
         android:layout_centerHorizontal="true"
-        android:backgroundTint="@color/blue_shade"
+        android:backgroundTint="@color/blue_3"
         android:text="Rendy Dermawan - 10119030"
         android:textColor="@color/white" />
 
@@ -79,7 +78,7 @@
         android:layout_height="50dp"
         android:layout_below="@id/btn_10119039"
         android:layout_centerHorizontal="true"
-        android:backgroundTint="@color/blue_shade"
+        android:backgroundTint="@color/blue_3"
         android:text="Adira Fahri Gathan - 10119025"
         android:textColor="@color/white"
         android:textSize="13dp" />
@@ -92,6 +91,6 @@
         android:layout_below="@id/btn_10119025"
         android:layout_centerHorizontal="true"
         android:textColor="@color/white"
-        android:backgroundTint="@color/blue_shade"
+        android:backgroundTint="@color/blue_3"
         android:text="IF1" />
 </RelativeLayout>

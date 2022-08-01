@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue_500"
+    android:background="@color/blue_2"
     >
 
     <ImageView
@@ -60,9 +60,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
         android:text="Mulai Sekarang!"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textColor="@color/white"
-        android:backgroundTint="@color/blue_shade"
+        android:backgroundTint="@color/blue_3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"

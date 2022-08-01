@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue_500"
+    android:background="@color/blue_2"
     tools:context=".SplashActivity"
     android:id="@+id/splash_screen">
 

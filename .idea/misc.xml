@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Reihan/AndroidStudioProjects/GazzzKeun-IF1-SyntaxReborn/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1945" />
+        <entry key="..\:/Users/Reihan/AndroidStudioProjects/GazzzKeun-IF1-SyntaxReborn/app/src/main/res/drawable/round_button.xml" value="0.1945" />
+        <entry key="..\:/Users/Reihan/AndroidStudioProjects/GazzzKeun-IF1-SyntaxReborn/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/Reihan/AndroidStudioProjects/GazzzKeun-IF1-SyntaxReborn/app/src/main/res/layout/activity_splash.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Reihan/AndroidStudioProjects/GazzzKeun-IF1-SyntaxReborn/app/src/main/res/layout/activity_view_pager.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Reihan/AndroidStudioProjects/GazzzKeun-IF1-SyntaxReborn/app/src/main/res/layout/fragment_about.xml" value="0.1" />
         <entry key="..\:/Users/Reihan/AndroidStudioProjects/GazzzKeun-IF1-SyntaxReborn/app/src/main/res/layout/fragment_maps.xml" value="0.17074275362318841" />
@@ -11,7 +14,7 @@
         <entry key="..\:/Users/Reihan/AndroidStudioProjects/GazzzKeun-IF1-SyntaxReborn/app/src/main/res/layout/slider_item.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Reihan/AndroidStudioProjects/GazzzKeun-IF1-SyntaxReborn/app/src/main/res/layout/viewpager_content1.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Reihan/AndroidStudioProjects/GazzzKeun-IF1-SyntaxReborn/app/src/main/res/layout/viewpager_content2.xml" value="0.33" />
-        <entry key="..\:/Users/Reihan/AndroidStudioProjects/GazzzKeun-IF1-SyntaxReborn/app/src/main/res/layout/viewpager_content3.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Reihan/AndroidStudioProjects/GazzzKeun-IF1-SyntaxReborn/app/src/main/res/layout/viewpager_content3.xml" value="0.25" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/GazzzKeun/app/src/main/res/drawable/round_button.xml" value="0.2015" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/GazzzKeun/app/src/main/res/layout/activity_main.xml" value="0.1828125" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/GazzzKeun/app/src/main/res/layout/activity_splash.xml" value="0.196875" />
