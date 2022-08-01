@@ -25,7 +25,7 @@ public class ProfileFragment extends Fragment {
             R.drawable.diva,
             R.drawable.gatan,
             //Lamun erek ganti fotona asupkeun heula di @drawable copas bae ke rename taro di edit1-3
-            //contoh mancung
+            //contoh mancung xyz
     };
 
 
